@@ -18,8 +18,10 @@ const pressStart2P = Press_Start_2P({
 export const metadata: Metadata = {
   title: "pTon - Snake Game on Telegram",
   description: "The first Ton-powered snake game with real token rewards",
-  themeColor: "#84cc16",
-  icons: ['/favicon.ico']
+  manifest: "/manifest.json",
+  icons: {
+    icon: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
