@@ -16,11 +16,10 @@ const pressStart2P = Press_Start_2P({
 
 // Update the metadata
 export const metadata: Metadata = {
-  title: "pTon - Blockchain Snake Game",
-  description: "The first blockchain-powered snake game with real token rewards",
-  manifest: "/manifest.json",
+  title: "pTon - Snake Game on Telegram",
+  description: "The first Ton-powered snake game with real token rewards",
   themeColor: "#84cc16",
-    generator: 'v0.dev'
+  icons: ['/favicon.ico']
 }
 
 export default function RootLayout({
@@ -34,7 +33,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'

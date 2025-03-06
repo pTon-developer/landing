@@ -65,6 +65,7 @@ export default function GameControls() {
   }
 
   const handleTouchMove = (e: React.TouchEvent) => {
+    if (gameStatus !== "PLAYING") return
     // Prevent scrolling when swiping
     e.preventDefault()
   }
@@ -102,10 +103,8 @@ export default function GameControls() {
     touchStartRef.current = null
   }
 
-  const handleLongPress = () => {
-    if (gameStatus === "PLAYING") {
-      attemptZoneCapture()
-    }
+  if (gameStatus !== "PLAYING") {
+    return null
   }
 
   return (
@@ -117,7 +116,6 @@ export default function GameControls() {
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
       onContextMenu={(e) => e.preventDefault()} // Prevent context menu on long press
-      style={{ pointerEvents: gameStatus === "PLAYING" ? "auto" : "none" }}
     />
   )
 }
