@@ -31,7 +31,7 @@ export default function Footer() {
 
   return (
     <footer className="py-16 bg-black relative">
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-black to-lime-950/10 pointer-events-none"></div>
+      <div className="absolute inset-0 from-black via-black to-lime-950/10 pointer-events-none"></div>
 
       <motion.div
         ref={ref}

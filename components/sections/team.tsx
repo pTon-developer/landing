@@ -57,7 +57,7 @@ export default function Team() {
 
   return (
     <section id="team" className="py-20 bg-black relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-black to-lime-950/10 pointer-events-none"></div>
+      <div className="absolute inset-0 from-black via-black to-lime-950/10 pointer-events-none"></div>
 
       <motion.div
         ref={ref}

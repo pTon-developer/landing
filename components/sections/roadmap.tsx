@@ -30,7 +30,7 @@ export default function Roadmap() {
 
   return (
     <section id="roadmap" className="py-20 bg-black relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-lime-950/10 via-black to-black pointer-events-none"></div>
+      <div className="absolute inset-0 from-lime-950/10 via-black to-black pointer-events-none"></div>
 
       <motion.div
         ref={ref}

@@ -30,7 +30,7 @@ export default function TokenEconomy() {
 
   return (
     <section id="token-economy" className="py-20 bg-black relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-lime-950/5 to-black pointer-events-none"></div>
+      <div className="absolute inset-0  from-black via-lime-950/5 to-black pointer-events-none"></div>
 
       <motion.div
         ref={ref}
