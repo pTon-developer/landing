@@ -70,7 +70,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://x.com/pTonMedia"
+                href="https://x.com/pTon105627"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lime-500 hover:text-lime-400"
